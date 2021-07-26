@@ -15,7 +15,7 @@ public class Period {
             throw new IllegalArgumentException("startHour and endHour have to between 0 and 24");
         }
 
-        if( startH > endH){
+        if( startH >= endH){
             throw new IllegalArgumentException("duration have to be positive");
         }
 
